@@ -29,6 +29,10 @@ body {
     }
   }
 
+img {
+    border-radius: 100%;
+}
+
 .font-light {
     font-weight: 100;
 }
@@ -71,5 +75,8 @@ body {
     margin: 0 3% 100px 3%;
 }
 
-
+.preview {
+    width: 175px;
+    height: 175px;
+}
   

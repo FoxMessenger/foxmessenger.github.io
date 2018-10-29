@@ -21,6 +21,9 @@ body {
     max-width: 684px;
     padding-bottom: 4px; }
 
+img {
+  border-radius: 100%; }
+
 .font-light {
   font-weight: 100; }
 
@@ -57,3 +60,7 @@ body {
   float: left;
   display: inline-block;
   margin: 0 3% 100px 3%; }
+
+.preview {
+  width: 175px;
+  height: 175px; }

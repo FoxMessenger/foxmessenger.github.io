@@ -23105,6 +23105,219 @@ var Header = function Header() {
 
 var _default = Header;
 exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Jumbotron.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Dependencies
+var Jumbotron = function Jumbotron() {
+  return _react.default.createElement("div", {
+    id: "body-text"
+  }, _react.default.createElement("div", {
+    id: "body-text"
+  }, _react.default.createElement("div", {
+    className: "short-hr"
+  }, "\xA0"), _react.default.createElement("div", null, _react.default.createElement("h1", {
+    className: "font-light"
+  }, "Hi, my name is ", _react.default.createElement("b", {
+    className: "font-heavy"
+  }, "Liam Fox.")), _react.default.createElement("p", null, "designer, story teller, traveler, and artist from chicago.")), _react.default.createElement("div", null, _react.default.createElement("div", {
+    className: "short-hr"
+  }, "\xA0"))));
+};
+
+var _default = Jumbotron;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Workboard.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Dependencies
+var Artboard = function Artboard() {
+  return _react.default.createElement("div", {
+    id: "body-text"
+  }, _react.default.createElement("div", {
+    className: "col-span-4"
+  }, _react.default.createElement("p", {
+    className: "font-heavy-gray"
+  }, "Work"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "Northwestern University"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, _react.default.createElement("b", null, "Marketing Specialist")), _react.default.createElement("p", null, "Graphic designer and Marketer for the Residential Services department under Student Affairs Marketing. Ensure Northwestern\u2019s brand and appearance is creatively executed across campus for student engagement.")), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "PACO Collective"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, _react.default.createElement("b", null, "Art Director")), _react.default.createElement("p", null, "Visual storyboarding, creative brainstorming and production design to meet clients needs. Won 2 awards, increased client JD Powers ranking from 5th tier to 2nd Tier within 2 years, and produced 4 commercials.")), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "Board of Education, Chicago Public Schools"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, _react.default.createElement("b", null, "Graphic Designer")), _react.default.createElement("p", null, "Edited the local school webpages, designed and created several collateral pieces for professional development projects, photographed events and students."), _react.default.createElement("p", null, "+1 bonus: Co-taught 2nd grade and assisted with deescalation of students.")), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "Devil's Due Publishing"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, _react.default.createElement("b", null, "Graphic Design Intern")), _react.default.createElement("p", null, "Edited comic book layouts, designed online advertisement, and worked on marketing posters for events such as C2E2 and ComicCon Chicago and San Francisco."))));
+};
+
+var _default = Artboard;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Webdesignboard.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Dependencies
+var Webdesignboard = function Webdesignboard() {
+  return _react.default.createElement("div", null, _react.default.createElement("div", {
+    id: "body-text"
+  }, _react.default.createElement("div", {
+    className: "col-span-4"
+  }, _react.default.createElement("p", {
+    className: "font-heavy-gray"
+  }, "Web Design"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "The APP"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, "The Almost Perfect Picker (APP) web app. The purpose\xA0The APP,\xA0was to ensure you receive a hassle free movie, of, on which you weren't already deciding."), _react.default.createElement("p", null, "Our APP is directly connected to Netflix, with our code being parced through OMDB to ensure a mid to high rating for our selected movie, with which we pass on to you for your viewing pleasure.")), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "Who Are You?"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, "A simple little game of 20 questions in the form of online cards, with a series of questions being safe and friendly, while the other series are more risqu\xE9.")), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, "Battle of the Gods"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, _react.default.createElement("p", null, "A simple game type web app created for me to better understand and manipulate Javascript functions, CSS animations, and HTML styling in general")), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("div", null, _react.default.createElement("p", {
+    className: "font-light"
+  }, "Paper App"), _react.default.createElement("div", {
+    className: "font-light font-sm"
+  }, "This web application was designed to give you a quick series of current Onion Related Articles taken from the Onion. The site contains a neat series of UX functions.")))));
+};
+
+var _default = Webdesignboard;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/assets/2018-art/Amy-3.jpg":[function(require,module,exports) {
+module.exports = "/Amy-3.8edd89d4.jpg";
+},{}],"src/assets/2018-art/Eimeliz-b.jpg":[function(require,module,exports) {
+module.exports = "/Eimeliz-b.0bb508e8.jpg";
+},{}],"src/assets/2018-art/Cassie-B.jpg":[function(require,module,exports) {
+module.exports = "/Cassie-B.b380d3e5.jpg";
+},{}],"src/assets/2018-art/Francesca-C.jpg":[function(require,module,exports) {
+module.exports = "/Francesca-C.2bea8ec4.jpg";
+},{}],"src/assets/2018-art/Nicole.jpg":[function(require,module,exports) {
+module.exports = "/Nicole.dc42dbe1.jpg";
+},{}],"src/assets/2018-art/*.jpg":[function(require,module,exports) {
+module.exports = {
+  "Amy-3": require("./Amy-3.jpg"),
+  "Eimeliz-b": require("./Eimeliz-b.jpg"),
+  "Cassie-B": require("./Cassie-B.jpg"),
+  "Francesca-C": require("./Francesca-C.jpg"),
+  "Nicole": require("./Nicole.jpg")
+};
+},{"./Amy-3.jpg":"src/assets/2018-art/Amy-3.jpg","./Eimeliz-b.jpg":"src/assets/2018-art/Eimeliz-b.jpg","./Cassie-B.jpg":"src/assets/2018-art/Cassie-B.jpg","./Francesca-C.jpg":"src/assets/2018-art/Francesca-C.jpg","./Nicole.jpg":"src/assets/2018-art/Nicole.jpg"}],"src/components/Designboard.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _ = _interopRequireDefault(require("../assets/2018-art/*.jpg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Dependencies
+var Designboard = function Designboard() {
+  return _react.default.createElement("div", null, _react.default.createElement("div", {
+    id: "body-text"
+  }, _react.default.createElement("div", {
+    className: "col-span-4"
+  }, _react.default.createElement("p", {
+    className: "font-heavy-gray"
+  }, "Graphic Design"), _react.default.createElement("div", {
+    className: "preview"
+  }, Object.keys(_.default).map(function (key) {
+    return _react.default.createElement("img", {
+      key: key,
+      src: _.default[key]
+    });
+  })))));
+}; // <div className="dotted">&nbsp;</div>
+
+
+var _default = Designboard;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/2018-art/*.jpg":"src/assets/2018-art/*.jpg"}],"src/components/Awardboard.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Dependencies
+var Awardboard = function Awardboard() {
+  return _react.default.createElement("div", null, _react.default.createElement("div", {
+    id: "body-text"
+  }, _react.default.createElement("div", {
+    className: "col-span-4"
+  }, _react.default.createElement("p", {
+    className: "font-heavy-gray"
+  }, "Awards"), _react.default.createElement("p", {
+    className: "font-light"
+  }, _react.default.createElement("b", null, "Uni award"), " ", _react.default.createElement("br", null), "2006 ", _react.default.createElement("br", null), "Most likely to lose the most students"), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, _react.default.createElement("b", null, "Platinum MarComm award"), _react.default.createElement("br", null), " 2014 ", _react.default.createElement("br", null), "ComEd STE Millumina ", _react.default.createElement("br", null), "PACO"), _react.default.createElement("div", {
+    className: "dotted"
+  }, "\xA0"), _react.default.createElement("p", {
+    className: "font-light"
+  }, _react.default.createElement("b", null, "Platinum MarComm award"), _react.default.createElement("br", null), " 2014 ", _react.default.createElement("br", null), "Gift of Hope Summer Event ", _react.default.createElement("br", null), "PACO"))));
+};
+
+var _default = Awardboard;
+exports.default = _default;
 },{"react":"node_modules/react/index.js"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
@@ -23186,6 +23399,16 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _Header = _interopRequireDefault(require("./components/Header"));
 
+var _Jumbotron = _interopRequireDefault(require("./components/Jumbotron"));
+
+var _Workboard = _interopRequireDefault(require("./components/Workboard"));
+
+var _Webdesignboard = _interopRequireDefault(require("./components/Webdesignboard"));
+
+var _Designboard = _interopRequireDefault(require("./components/Designboard"));
+
+var _Awardboard = _interopRequireDefault(require("./components/Awardboard"));
+
 require("./scss/app.scss");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -23209,85 +23432,35 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 // Page Render
-var HelloMessage =
+var MainPage =
 /*#__PURE__*/
 function (_React$Component) {
-  _inherits(HelloMessage, _React$Component);
+  _inherits(MainPage, _React$Component);
 
-  function HelloMessage() {
-    _classCallCheck(this, HelloMessage);
+  function MainPage() {
+    _classCallCheck(this, MainPage);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(HelloMessage).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(MainPage).apply(this, arguments));
   }
 
-  _createClass(HelloMessage, [{
+  _createClass(MainPage, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("div", null, _react.default.createElement(_Header.default, null), _react.default.createElement("div", {
+      return _react.default.createElement("div", null, _react.default.createElement(_Header.default, null), _react.default.createElement(_Jumbotron.default, null), _react.default.createElement("div", {
         className: "container"
       }, _react.default.createElement("div", {
         id: "main-body"
-      }, _react.default.createElement("div", {
-        id: "body-text"
-      }, _react.default.createElement("div", {
-        className: "short-hr"
-      }, "\xA0"), _react.default.createElement("div", null, _react.default.createElement("h1", {
-        className: "font-light"
-      }, "Hi, my name is ", _react.default.createElement("b", {
-        className: "font-heavy"
-      }, "   ", this.props.name)), " ", _react.default.createElement("p", null, "Designer, story teller, traveler, and artist from Chicago.")), _react.default.createElement("div", null, _react.default.createElement("div", {
-        className: "short-hr"
-      }, "\xA0"), _react.default.createElement("div", {
-        className: "col-span-4"
-      }, _react.default.createElement("p", {
-        className: "font-heavy-gray"
-      }, "Work"), _react.default.createElement("p", {
-        className: "font-light"
-      }, "The APP"), _react.default.createElement("div", {
-        className: "font-light font-sm"
-      }, _react.default.createElement("p", null, "The Almost Perfect Picker (APP) web app. The purpose\xA0The APP,\xA0was to ensure you receive a hassle free movie, of, on which you weren't already deciding."), _react.default.createElement("p", null, "Our APP is directly connected to Netflix, with our code being parced through OMDB to ensure a mid to high rating for our selected movie, with which we pass on to you for your viewing pleasure.")), _react.default.createElement("div", {
-        className: "dotted"
-      }, "\xA0"), _react.default.createElement("p", {
-        className: "font-light"
-      }, "Who Are You?"), _react.default.createElement("div", {
-        className: "font-light font-sm"
-      }, _react.default.createElement("p", null, "A simple little game of 20 questions in the form of online cards, with a series of questions being safe and friendly, while the other series are more risqu\xE9.")), _react.default.createElement("div", {
-        className: "dotted"
-      }, "\xA0"), _react.default.createElement("p", {
-        className: "font-light"
-      }, "Battle of the Gods"), _react.default.createElement("div", {
-        className: "font-light font-sm"
-      }, _react.default.createElement("p", null, "A simple game type web app created for me to better understand and manipulate Javascript functions, CSS animations, and HTML styling in general"))), _react.default.createElement("div", {
-        className: "col-span-4"
-      }, _react.default.createElement("p", {
-        className: "font-heavy-gray"
-      }, "Awards"), _react.default.createElement("p", {
-        className: "font-light"
-      }, "Tons of useful information")), _react.default.createElement("div", {
-        className: "col-span-4"
-      }, _react.default.createElement("p", {
-        className: "font-heavy-gray"
-      }, "Graphic Design"), _react.default.createElement("p", {
-        className: "font-light"
-      }, "Tons of useful information")), "                            ", _react.default.createElement("div", {
-        className: "col-span-4"
-      }, _react.default.createElement("p", {
-        className: "font-heavy-gray"
-      }, "Personal Art"), _react.default.createElement("p", {
-        className: "font-light"
-      }, "Tons of useful information")))))));
+      }, _react.default.createElement(_Workboard.default, null), _react.default.createElement(_Awardboard.default, null), _react.default.createElement(_Webdesignboard.default, null), _react.default.createElement(_Designboard.default, null))));
     }
   }]);
 
-  return HelloMessage;
+  return MainPage;
 }(_react.default.Component);
 
 var App = document.getElementById("app");
 
-_reactDom.default.render(_react.default.createElement(HelloMessage, {
-  name: "Liam Fox"
-}), App);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Header":"src/components/Header.js","./scss/app.scss":"src/scss/app.scss"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+_reactDom.default.render(_react.default.createElement(MainPage, null), App);
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Header":"src/components/Header.js","./components/Jumbotron":"src/components/Jumbotron.js","./components/Workboard":"src/components/Workboard.js","./components/Webdesignboard":"src/components/Webdesignboard.js","./components/Designboard":"src/components/Designboard.js","./components/Awardboard":"src/components/Awardboard.js","./scss/app.scss":"src/scss/app.scss"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -23314,7 +23487,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63166" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65462" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
