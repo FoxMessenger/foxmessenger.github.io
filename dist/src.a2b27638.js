@@ -23136,7 +23136,194 @@ var Jumbotron = function Jumbotron() {
 
 var _default = Jumbotron;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/components/Workboard.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"src/assets/2018-art/Amy-3.jpg":[function(require,module,exports) {
+module.exports = "/Amy-3.8edd89d4.jpg";
+},{}],"src/assets/2018-art/Cassie-B.jpg":[function(require,module,exports) {
+module.exports = "/Cassie-B.b380d3e5.jpg";
+},{}],"src/assets/2018-art/Eimeliz-b.jpg":[function(require,module,exports) {
+module.exports = "/Eimeliz-b.0bb508e8.jpg";
+},{}],"src/assets/2018-art/Francesca-C.jpg":[function(require,module,exports) {
+module.exports = "/Francesca-C.2bea8ec4.jpg";
+},{}],"src/assets/2018-art/Nicole.jpg":[function(require,module,exports) {
+module.exports = "/Nicole.dc42dbe1.jpg";
+},{}],"src/assets/2018-art/*.jpg":[function(require,module,exports) {
+module.exports = {
+  "Amy-3": require("./Amy-3.jpg"),
+  "Cassie-B": require("./Cassie-B.jpg"),
+  "Eimeliz-b": require("./Eimeliz-b.jpg"),
+  "Francesca-C": require("./Francesca-C.jpg"),
+  "Nicole": require("./Nicole.jpg")
+};
+},{"./Amy-3.jpg":"src/assets/2018-art/Amy-3.jpg","./Cassie-B.jpg":"src/assets/2018-art/Cassie-B.jpg","./Eimeliz-b.jpg":"src/assets/2018-art/Eimeliz-b.jpg","./Francesca-C.jpg":"src/assets/2018-art/Francesca-C.jpg","./Nicole.jpg":"src/assets/2018-art/Nicole.jpg"}],"src/components/Tile.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _ = _interopRequireDefault(require("../assets/2018-art/*.jpg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+// Tile Component
+var Tile =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Tile, _React$Component);
+
+  function Tile(props) {
+    var _this;
+
+    _classCallCheck(this, Tile);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Tile).call(this, props));
+    _this.state = {
+      open: false,
+      mouseOver: false
+    };
+    _this._clickHandler = _this._clickHandler.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    _this._mouseEnter = _this._mouseEnter.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    _this._mouseLeave = _this._mouseLeave.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    return _this;
+  }
+
+  _createClass(Tile, [{
+    key: "_mouseEnter",
+    value: function _mouseEnter(e) {
+      e.preventDefault();
+
+      if (this.state.mouseOver === false) {
+        console.log(_.default);
+        this.setState({
+          mouseOver: true
+        });
+      }
+    }
+  }, {
+    key: "_mouseLeave",
+    value: function _mouseLeave(e) {
+      e.preventDefault();
+
+      if (this.state.mouseOver === true) {
+        this.setState({
+          mouseOver: false
+        });
+      }
+    }
+  }, {
+    key: "_clickHandler",
+    value: function _clickHandler(e) {
+      e.preventDefault();
+
+      if (this.state.open === false) {
+        this.setState({
+          open: true
+        });
+      } else {
+        this.setState({
+          open: false
+        });
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var tileStyle = {}; // let headerStyle = {};
+      // let zoom = {};
+
+      if (this.state.open) {
+        tileStyle = {
+          width: '100vw',
+          height: '100vw',
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          margin: '0',
+          marginTop: '-31vw',
+          marginLeft: '-31vw',
+          boxShadow: '0 0 40px 5px rgba(0, 0, 0, 0.3)',
+          transform: 'none'
+        };
+      } else {
+        tileStyle = {
+          width: '100%',
+          height: '100%'
+        };
+      }
+
+      return _react.default.createElement("div", {
+        className: "tile"
+      }, _react.default.createElement("img", {
+        onMouseEnter: this._mouseEnter,
+        onMouseLeave: this._mouseLeave,
+        onClick: this._clickHandler,
+        src: this.props.src,
+        style: tileStyle
+      }));
+    }
+  }]);
+
+  return Tile;
+}(_react.default.Component);
+
+var _default = Tile;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/2018-art/*.jpg":"src/assets/2018-art/*.jpg"}],"src/components/Artboard.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _ = _interopRequireDefault(require("../assets/2018-art/*.jpg"));
+
+var _Tile = _interopRequireDefault(require("./Tile"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Dependencies
+var Artboard = function Artboard() {
+  return _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("div", {
+    className: "row-span"
+  }, _react.default.createElement("p", {
+    className: "font-heavy-gray"
+  }, "Paintings"), _react.default.createElement("div", {
+    className: "tiles"
+  }, Object.keys(_.default).map(function (key) {
+    return _react.default.createElement(_Tile.default, {
+      key: key,
+      src: _.default[key]
+    });
+  })))));
+};
+
+var _default = Artboard;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/2018-art/*.jpg":"src/assets/2018-art/*.jpg","./Tile":"src/components/Tile.js"}],"src/components/Workboard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23153,7 +23340,7 @@ var Artboard = function Artboard() {
   return _react.default.createElement("div", {
     id: "body-text"
   }, _react.default.createElement("div", {
-    className: "col-span-4"
+    className: "col-span"
   }, _react.default.createElement("p", {
     className: "font-heavy-gray"
   }, "Work"), _react.default.createElement("p", {
@@ -23200,7 +23387,7 @@ var Webdesignboard = function Webdesignboard() {
   return _react.default.createElement("div", null, _react.default.createElement("div", {
     id: "body-text"
   }, _react.default.createElement("div", {
-    className: "col-span-4"
+    className: "col-span"
   }, _react.default.createElement("p", {
     className: "font-heavy-gray"
   }, "Web Design"), _react.default.createElement("p", {
@@ -23221,34 +23408,16 @@ var Webdesignboard = function Webdesignboard() {
     className: "font-light font-sm"
   }, _react.default.createElement("p", null, "A simple game type web app created for me to better understand and manipulate Javascript functions, CSS animations, and HTML styling in general")), _react.default.createElement("div", {
     className: "dotted"
-  }, "\xA0"), _react.default.createElement("div", null, _react.default.createElement("p", {
+  }, "\xA0"), _react.default.createElement("p", {
     className: "font-light"
   }, "Paper App"), _react.default.createElement("div", {
     className: "font-light font-sm"
-  }, "This web application was designed to give you a quick series of current Onion Related Articles taken from the Onion. The site contains a neat series of UX functions.")))));
+  }, _react.default.createElement("p", null, "This web application was designed to give you a quick series of current Onion Related Articles taken from the Onion. The site contains a neat series of UX functions.")))));
 };
 
 var _default = Webdesignboard;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/assets/2018-art/Amy-3.jpg":[function(require,module,exports) {
-module.exports = "/Amy-3.8edd89d4.jpg";
-},{}],"src/assets/2018-art/Eimeliz-b.jpg":[function(require,module,exports) {
-module.exports = "/Eimeliz-b.0bb508e8.jpg";
-},{}],"src/assets/2018-art/Cassie-B.jpg":[function(require,module,exports) {
-module.exports = "/Cassie-B.b380d3e5.jpg";
-},{}],"src/assets/2018-art/Francesca-C.jpg":[function(require,module,exports) {
-module.exports = "/Francesca-C.2bea8ec4.jpg";
-},{}],"src/assets/2018-art/Nicole.jpg":[function(require,module,exports) {
-module.exports = "/Nicole.dc42dbe1.jpg";
-},{}],"src/assets/2018-art/*.jpg":[function(require,module,exports) {
-module.exports = {
-  "Amy-3": require("./Amy-3.jpg"),
-  "Eimeliz-b": require("./Eimeliz-b.jpg"),
-  "Cassie-B": require("./Cassie-B.jpg"),
-  "Francesca-C": require("./Francesca-C.jpg"),
-  "Nicole": require("./Nicole.jpg")
-};
-},{"./Amy-3.jpg":"src/assets/2018-art/Amy-3.jpg","./Eimeliz-b.jpg":"src/assets/2018-art/Eimeliz-b.jpg","./Cassie-B.jpg":"src/assets/2018-art/Cassie-B.jpg","./Francesca-C.jpg":"src/assets/2018-art/Francesca-C.jpg","./Nicole.jpg":"src/assets/2018-art/Nicole.jpg"}],"src/components/Designboard.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"src/components/Designboard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23267,10 +23436,10 @@ var Designboard = function Designboard() {
   return _react.default.createElement("div", null, _react.default.createElement("div", {
     id: "body-text"
   }, _react.default.createElement("div", {
-    className: "col-span-4"
+    className: "col-span"
   }, _react.default.createElement("p", {
     className: "font-heavy-gray"
-  }, "Graphic Design"), _react.default.createElement("div", {
+  }, "Art & Design"), _react.default.createElement("div", {
     className: "preview"
   }, Object.keys(_.default).map(function (key) {
     return _react.default.createElement("img", {
@@ -23300,7 +23469,7 @@ var Awardboard = function Awardboard() {
   return _react.default.createElement("div", null, _react.default.createElement("div", {
     id: "body-text"
   }, _react.default.createElement("div", {
-    className: "col-span-4"
+    className: "col-span"
   }, _react.default.createElement("p", {
     className: "font-heavy-gray"
   }, "Awards"), _react.default.createElement("p", {
@@ -23401,6 +23570,8 @@ var _Header = _interopRequireDefault(require("./components/Header"));
 
 var _Jumbotron = _interopRequireDefault(require("./components/Jumbotron"));
 
+var _Artboard = _interopRequireDefault(require("./components/Artboard"));
+
 var _Workboard = _interopRequireDefault(require("./components/Workboard"));
 
 var _Webdesignboard = _interopRequireDefault(require("./components/Webdesignboard"));
@@ -23446,21 +23617,23 @@ function (_React$Component) {
   _createClass(MainPage, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("div", null, _react.default.createElement(_Header.default, null), _react.default.createElement(_Jumbotron.default, null), _react.default.createElement("div", {
+      return _react.default.createElement("div", null, _react.default.createElement(_Jumbotron.default, null), _react.default.createElement("div", {
         className: "container"
       }, _react.default.createElement("div", {
         id: "main-body"
-      }, _react.default.createElement(_Workboard.default, null), _react.default.createElement(_Awardboard.default, null), _react.default.createElement(_Webdesignboard.default, null), _react.default.createElement(_Designboard.default, null))));
+      }, _react.default.createElement(_Workboard.default, null), _react.default.createElement(_Awardboard.default, null), _react.default.createElement(_Webdesignboard.default, null))), _react.default.createElement("div", {
+        className: "container no-float"
+      }, _react.default.createElement(_Artboard.default, null)));
     }
   }]);
 
   return MainPage;
 }(_react.default.Component);
 
-var App = document.getElementById("app");
+var App = document.getElementById('app');
 
 _reactDom.default.render(_react.default.createElement(MainPage, null), App);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Header":"src/components/Header.js","./components/Jumbotron":"src/components/Jumbotron.js","./components/Workboard":"src/components/Workboard.js","./components/Webdesignboard":"src/components/Webdesignboard.js","./components/Designboard":"src/components/Designboard.js","./components/Awardboard":"src/components/Awardboard.js","./scss/app.scss":"src/scss/app.scss"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Header":"src/components/Header.js","./components/Jumbotron":"src/components/Jumbotron.js","./components/Artboard":"src/components/Artboard.js","./components/Workboard":"src/components/Workboard.js","./components/Webdesignboard":"src/components/Webdesignboard.js","./components/Designboard":"src/components/Designboard.js","./components/Awardboard":"src/components/Awardboard.js","./scss/app.scss":"src/scss/app.scss"}],"../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -23487,7 +23660,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65462" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53969" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

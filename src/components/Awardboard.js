@@ -4,7 +4,7 @@ import React from 'react'
 const Awardboard = () => (
     <div>
         <div id="body-text">
-            <div className="col-span-4">
+            <div className="col-span">
                 <p className="font-heavy-gray">Awards</p>
                 <p className="font-light"><b>Uni award</b> <br/>2006 <br/>Most likely to lose the most students</p>
                 <div className="dotted">&nbsp;</div>

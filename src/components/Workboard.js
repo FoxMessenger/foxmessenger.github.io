@@ -3,7 +3,7 @@ import React from 'react'
 
 const Artboard = () => (
     <div id="body-text">
-        <div className="col-span-4">
+        <div className="col-span">
             <p className="font-heavy-gray">Work</p>
             <p className="font-light">Northwestern University</p>
             <div className="font-light font-sm">
