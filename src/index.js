@@ -24,8 +24,7 @@ class MainPage extends React.Component {
                         {/* <Designboard/> */}
                 </div>
             </div>
-            <div className='container no-float'>
-
+            <div className='container float-center'>
                 <Artboard/>
             </div>
         </div>

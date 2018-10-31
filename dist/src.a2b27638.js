@@ -23136,25 +23136,202 @@ var Jumbotron = function Jumbotron() {
 
 var _default = Jumbotron;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/assets/2018-art/Amy-3.jpg":[function(require,module,exports) {
-module.exports = "/Amy-3.8edd89d4.jpg";
-},{}],"src/assets/2018-art/Cassie-B.jpg":[function(require,module,exports) {
-module.exports = "/Cassie-B.b380d3e5.jpg";
-},{}],"src/assets/2018-art/Eimeliz-b.jpg":[function(require,module,exports) {
-module.exports = "/Eimeliz-b.0bb508e8.jpg";
-},{}],"src/assets/2018-art/Francesca-C.jpg":[function(require,module,exports) {
-module.exports = "/Francesca-C.2bea8ec4.jpg";
-},{}],"src/assets/2018-art/Nicole.jpg":[function(require,module,exports) {
-module.exports = "/Nicole.dc42dbe1.jpg";
-},{}],"src/assets/2018-art/*.jpg":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"src/assets/2016-art/002-yellow-stripes.jpg":[function(require,module,exports) {
+module.exports = "/002-yellow-stripes.b927f4c6.jpg";
+},{}],"src/assets/2016-art/003+Pink+Stripes+B.jpg":[function(require,module,exports) {
+module.exports = "/003+Pink+Stripes+B.a9b357e1.jpg";
+},{}],"src/assets/2016-art/004+Blue+Stripes.jpg":[function(require,module,exports) {
+module.exports = "/004+Blue+Stripes.a2e87fbe.jpg";
+},{}],"src/assets/2016-art/007+Architecture+Blue+Top.jpg":[function(require,module,exports) {
+module.exports = "/007+Architecture+Blue+Top.053784d8.jpg";
+},{}],"src/assets/2016-art/008+Half+Circles.jpg":[function(require,module,exports) {
+module.exports = "/008+Half+Circles.db3fbafa.jpg";
+},{}],"src/assets/2016-art/009+Peeking.jpg":[function(require,module,exports) {
+module.exports = "/009+Peeking.6b97f241.jpg";
+},{}],"src/assets/2016-art/010+Shadowed+Wall.jpg":[function(require,module,exports) {
+module.exports = "/010+Shadowed+Wall.fba7a637.jpg";
+},{}],"src/assets/2016-art/011+7T.jpg":[function(require,module,exports) {
+module.exports = "/011+7T.56fbead3.jpg";
+},{}],"src/assets/2016-art/012+Sun+and+Waves.jpg":[function(require,module,exports) {
+module.exports = "/012+Sun+and+Waves.5896790f.jpg";
+},{}],"src/assets/2016-art/013+Circle+Circle+Line.jpg":[function(require,module,exports) {
+module.exports = "/013+Circle+Circle+Line.e44263af.jpg";
+},{}],"src/assets/2016-art/014+Offset+Small+Circle+Big+Circle.jpg":[function(require,module,exports) {
+module.exports = "/014+Offset+Small+Circle+Big+Circle.61ea962a.jpg";
+},{}],"src/assets/2016-art/015+Farm+Fence.jpg":[function(require,module,exports) {
+module.exports = "/015+Farm+Fence.b4ef0de4.jpg";
+},{}],"src/assets/2016-art/016+Farm+Street+Fence.jpg":[function(require,module,exports) {
+module.exports = "/016+Farm+Street+Fence.ea986e61.jpg";
+},{}],"src/assets/2016-art/Air+A.jpg":[function(require,module,exports) {
+module.exports = "/Air+A.68a2078f.jpg";
+},{}],"src/assets/2016-art/Air+B.jpg":[function(require,module,exports) {
+module.exports = "/Air+B.a6c26af5.jpg";
+},{}],"src/assets/2016-art/Blue+Square.jpg":[function(require,module,exports) {
+module.exports = "/Blue+Square.7fc8ce33.jpg";
+},{}],"src/assets/2016-art/Characters+Fox.jpg":[function(require,module,exports) {
+module.exports = "/Characters+Fox.ac37735c.jpg";
+},{}],"src/assets/2016-art/Characters+In+The+Rain.jpg":[function(require,module,exports) {
+module.exports = "/Characters+In+The+Rain.9de7fbce.jpg";
+},{}],"src/assets/2016-art/Characters+Mouse-2.jpg":[function(require,module,exports) {
+module.exports = "/Characters+Mouse-2.8d3848a3.jpg";
+},{}],"src/assets/2016-art/Characters+Mouse-3.jpg":[function(require,module,exports) {
+module.exports = "/Characters+Mouse-3.a3e0b0a3.jpg";
+},{}],"src/assets/2016-art/Characters+Mouse.jpg":[function(require,module,exports) {
+module.exports = "/Characters+Mouse.88deb373.jpg";
+},{}],"src/assets/2016-art/Characters+My+Pants.jpg":[function(require,module,exports) {
+module.exports = "/Characters+My+Pants.7e0df0c8.jpg";
+},{}],"src/assets/2016-art/Characters+Octopuses.jpg":[function(require,module,exports) {
+module.exports = "/Characters+Octopuses.f9fa4f19.jpg";
+},{}],"src/assets/2016-art/Characters+skullies.jpg":[function(require,module,exports) {
+module.exports = "/Characters+skullies.bfafe620.jpg";
+},{}],"src/assets/2016-art/Concept+B.jpg":[function(require,module,exports) {
+module.exports = "/Concept+B.cec82407.jpg";
+},{}],"src/assets/2016-art/Concept+C.jpg":[function(require,module,exports) {
+module.exports = "/Concept+C.28dcd527.jpg";
+},{}],"src/assets/2016-art/Concept+D.jpg":[function(require,module,exports) {
+module.exports = "/Concept+D.ca89beec.jpg";
+},{}],"src/assets/2016-art/Concept+E.jpg":[function(require,module,exports) {
+module.exports = "/Concept+E.6dfc687c.jpg";
+},{}],"src/assets/2016-art/Concept+F.jpg":[function(require,module,exports) {
+module.exports = "/Concept+F.28624338.jpg";
+},{}],"src/assets/2016-art/Concept+G.jpg":[function(require,module,exports) {
+module.exports = "/Concept+G.70a0e243.jpg";
+},{}],"src/assets/2016-art/Mini+Ellsworth.jpg":[function(require,module,exports) {
+module.exports = "/Mini+Ellsworth.ff675f0e.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+A.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+A.9cc20e12.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+B.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+B.bbf4e5b6.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+C.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+C.11795f0a.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+D.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+D.c0a07aca.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+E.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+E.cdf0d2f3.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+F.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+F.00c59542.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+G.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+G.4290b7a1.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+H.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+H.52536368.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+I.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+I.ccec7cfe.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+J.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+J.d86ca713.jpg";
+},{}],"src/assets/2016-art/Minimal+Line+K.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+K.52c4b573.jpg";
+},{}],"src/assets/2016-art/Red+Drip.jpg":[function(require,module,exports) {
+module.exports = "/Red+Drip.f87ea691.jpg";
+},{}],"src/assets/2016-art/Skull+and+Lines.jpg":[function(require,module,exports) {
+module.exports = "/Skull+and+Lines.cd462c7f.jpg";
+},{}],"src/assets/2016-art/Totem-Pole_A.jpg":[function(require,module,exports) {
+module.exports = "/Totem-Pole_A.ac0c738d.jpg";
+},{}],"src/assets/2016-art/Totem-Pole_B.jpg":[function(require,module,exports) {
+module.exports = "/Totem-Pole_B.c092496f.jpg";
+},{}],"src/assets/2016-art/Totem-Pole_C.jpg":[function(require,module,exports) {
+module.exports = "/Totem-Pole_C.c085559c.jpg";
+},{}],"src/assets/2016-art/Totem-Pole_D.jpg":[function(require,module,exports) {
+module.exports = "/Totem-Pole_D.29ae3edd.jpg";
+},{}],"src/assets/2016-art/Totem-Pole_E.jpg":[function(require,module,exports) {
+module.exports = "/Totem-Pole_E.7be62203.jpg";
+},{}],"src/assets/2016-art/Watercolour_A.jpg":[function(require,module,exports) {
+module.exports = "/Watercolour_A.fae05507.jpg";
+},{}],"src/assets/2016-art/Watercolour_B.jpg":[function(require,module,exports) {
+module.exports = "/Watercolour_B.8b5be773.jpg";
+},{}],"src/assets/2016-art/Watercolour_C.jpg":[function(require,module,exports) {
+module.exports = "/Watercolour_C.c2a0cae2.jpg";
+},{}],"src/assets/2016-art/Watercolour_D.jpg":[function(require,module,exports) {
+module.exports = "/Watercolour_D.ea4ff636.jpg";
+},{}],"src/assets/2016-art/Watercolour_E.jpg":[function(require,module,exports) {
+module.exports = "/Watercolour_E.20d81015.jpg";
+},{}],"src/assets/2016-art/Yellow+Square.jpg":[function(require,module,exports) {
+module.exports = "/Yellow+Square.2a591c99.jpg";
+},{}],"src/assets/2016-art/concept-a.jpg":[function(require,module,exports) {
+module.exports = "/concept-a.0ee4b4c2.jpg";
+},{}],"src/assets/2016-art/models-215.jpg":[function(require,module,exports) {
+module.exports = "/models-215.d29a4493.jpg";
+},{}],"src/assets/2016-art/models-216.jpg":[function(require,module,exports) {
+module.exports = "/models-216.63867b39.jpg";
+},{}],"src/assets/2016-art/models-217.jpg":[function(require,module,exports) {
+module.exports = "/models-217.5d37b03e.jpg";
+},{}],"src/assets/2016-art/models-218.jpg":[function(require,module,exports) {
+module.exports = "/models-218.a75aa328.jpg";
+},{}],"src/assets/2016-art/models-219.jpg":[function(require,module,exports) {
+module.exports = "/models-219.8c78d0c5.jpg";
+},{}],"src/assets/2016-art/models-220.jpg":[function(require,module,exports) {
+module.exports = "/models-220.3b6dfe2e.jpg";
+},{}],"src/assets/2016-art/models-221.jpg":[function(require,module,exports) {
+module.exports = "/models-221.5f549253.jpg";
+},{}],"src/assets/2016-art/models-222.jpg":[function(require,module,exports) {
+module.exports = "/models-222.c0c6ab3e.jpg";
+},{}],"src/assets/2016-art/*.jpg":[function(require,module,exports) {
 module.exports = {
-  "Amy-3": require("./Amy-3.jpg"),
-  "Cassie-B": require("./Cassie-B.jpg"),
-  "Eimeliz-b": require("./Eimeliz-b.jpg"),
-  "Francesca-C": require("./Francesca-C.jpg"),
-  "Nicole": require("./Nicole.jpg")
+  "002-yellow-stripes": require("./002-yellow-stripes.jpg"),
+  "003+Pink+Stripes+B": require("./003+Pink+Stripes+B.jpg"),
+  "004+Blue+Stripes": require("./004+Blue+Stripes.jpg"),
+  "007+Architecture+Blue+Top": require("./007+Architecture+Blue+Top.jpg"),
+  "008+Half+Circles": require("./008+Half+Circles.jpg"),
+  "009+Peeking": require("./009+Peeking.jpg"),
+  "010+Shadowed+Wall": require("./010+Shadowed+Wall.jpg"),
+  "011+7T": require("./011+7T.jpg"),
+  "012+Sun+and+Waves": require("./012+Sun+and+Waves.jpg"),
+  "013+Circle+Circle+Line": require("./013+Circle+Circle+Line.jpg"),
+  "014+Offset+Small+Circle+Big+Circle": require("./014+Offset+Small+Circle+Big+Circle.jpg"),
+  "015+Farm+Fence": require("./015+Farm+Fence.jpg"),
+  "016+Farm+Street+Fence": require("./016+Farm+Street+Fence.jpg"),
+  "Air+A": require("./Air+A.jpg"),
+  "Air+B": require("./Air+B.jpg"),
+  "Blue+Square": require("./Blue+Square.jpg"),
+  "Characters+Fox": require("./Characters+Fox.jpg"),
+  "Characters+In+The+Rain": require("./Characters+In+The+Rain.jpg"),
+  "Characters+Mouse-2": require("./Characters+Mouse-2.jpg"),
+  "Characters+Mouse-3": require("./Characters+Mouse-3.jpg"),
+  "Characters+Mouse": require("./Characters+Mouse.jpg"),
+  "Characters+My+Pants": require("./Characters+My+Pants.jpg"),
+  "Characters+Octopuses": require("./Characters+Octopuses.jpg"),
+  "Characters+skullies": require("./Characters+skullies.jpg"),
+  "Concept+B": require("./Concept+B.jpg"),
+  "Concept+C": require("./Concept+C.jpg"),
+  "Concept+D": require("./Concept+D.jpg"),
+  "Concept+E": require("./Concept+E.jpg"),
+  "Concept+F": require("./Concept+F.jpg"),
+  "Concept+G": require("./Concept+G.jpg"),
+  "Mini+Ellsworth": require("./Mini+Ellsworth.jpg"),
+  "Minimal+Line+A": require("./Minimal+Line+A.jpg"),
+  "Minimal+Line+B": require("./Minimal+Line+B.jpg"),
+  "Minimal+Line+C": require("./Minimal+Line+C.jpg"),
+  "Minimal+Line+D": require("./Minimal+Line+D.jpg"),
+  "Minimal+Line+E": require("./Minimal+Line+E.jpg"),
+  "Minimal+Line+F": require("./Minimal+Line+F.jpg"),
+  "Minimal+Line+G": require("./Minimal+Line+G.jpg"),
+  "Minimal+Line+H": require("./Minimal+Line+H.jpg"),
+  "Minimal+Line+I": require("./Minimal+Line+I.jpg"),
+  "Minimal+Line+J": require("./Minimal+Line+J.jpg"),
+  "Minimal+Line+K": require("./Minimal+Line+K.jpg"),
+  "Red+Drip": require("./Red+Drip.jpg"),
+  "Skull+and+Lines": require("./Skull+and+Lines.jpg"),
+  "Totem-Pole_A": require("./Totem-Pole_A.jpg"),
+  "Totem-Pole_B": require("./Totem-Pole_B.jpg"),
+  "Totem-Pole_C": require("./Totem-Pole_C.jpg"),
+  "Totem-Pole_D": require("./Totem-Pole_D.jpg"),
+  "Totem-Pole_E": require("./Totem-Pole_E.jpg"),
+  "Watercolour_A": require("./Watercolour_A.jpg"),
+  "Watercolour_B": require("./Watercolour_B.jpg"),
+  "Watercolour_C": require("./Watercolour_C.jpg"),
+  "Watercolour_D": require("./Watercolour_D.jpg"),
+  "Watercolour_E": require("./Watercolour_E.jpg"),
+  "Yellow+Square": require("./Yellow+Square.jpg"),
+  "concept-a": require("./concept-a.jpg"),
+  "models-215": require("./models-215.jpg"),
+  "models-216": require("./models-216.jpg"),
+  "models-217": require("./models-217.jpg"),
+  "models-218": require("./models-218.jpg"),
+  "models-219": require("./models-219.jpg"),
+  "models-220": require("./models-220.jpg"),
+  "models-221": require("./models-221.jpg"),
+  "models-222": require("./models-222.jpg")
 };
-},{"./Amy-3.jpg":"src/assets/2018-art/Amy-3.jpg","./Cassie-B.jpg":"src/assets/2018-art/Cassie-B.jpg","./Eimeliz-b.jpg":"src/assets/2018-art/Eimeliz-b.jpg","./Francesca-C.jpg":"src/assets/2018-art/Francesca-C.jpg","./Nicole.jpg":"src/assets/2018-art/Nicole.jpg"}],"src/components/Tile.js":[function(require,module,exports) {
+},{"./002-yellow-stripes.jpg":"src/assets/2016-art/002-yellow-stripes.jpg","./003+Pink+Stripes+B.jpg":"src/assets/2016-art/003+Pink+Stripes+B.jpg","./004+Blue+Stripes.jpg":"src/assets/2016-art/004+Blue+Stripes.jpg","./007+Architecture+Blue+Top.jpg":"src/assets/2016-art/007+Architecture+Blue+Top.jpg","./008+Half+Circles.jpg":"src/assets/2016-art/008+Half+Circles.jpg","./009+Peeking.jpg":"src/assets/2016-art/009+Peeking.jpg","./010+Shadowed+Wall.jpg":"src/assets/2016-art/010+Shadowed+Wall.jpg","./011+7T.jpg":"src/assets/2016-art/011+7T.jpg","./012+Sun+and+Waves.jpg":"src/assets/2016-art/012+Sun+and+Waves.jpg","./013+Circle+Circle+Line.jpg":"src/assets/2016-art/013+Circle+Circle+Line.jpg","./014+Offset+Small+Circle+Big+Circle.jpg":"src/assets/2016-art/014+Offset+Small+Circle+Big+Circle.jpg","./015+Farm+Fence.jpg":"src/assets/2016-art/015+Farm+Fence.jpg","./016+Farm+Street+Fence.jpg":"src/assets/2016-art/016+Farm+Street+Fence.jpg","./Air+A.jpg":"src/assets/2016-art/Air+A.jpg","./Air+B.jpg":"src/assets/2016-art/Air+B.jpg","./Blue+Square.jpg":"src/assets/2016-art/Blue+Square.jpg","./Characters+Fox.jpg":"src/assets/2016-art/Characters+Fox.jpg","./Characters+In+The+Rain.jpg":"src/assets/2016-art/Characters+In+The+Rain.jpg","./Characters+Mouse-2.jpg":"src/assets/2016-art/Characters+Mouse-2.jpg","./Characters+Mouse-3.jpg":"src/assets/2016-art/Characters+Mouse-3.jpg","./Characters+Mouse.jpg":"src/assets/2016-art/Characters+Mouse.jpg","./Characters+My+Pants.jpg":"src/assets/2016-art/Characters+My+Pants.jpg","./Characters+Octopuses.jpg":"src/assets/2016-art/Characters+Octopuses.jpg","./Characters+skullies.jpg":"src/assets/2016-art/Characters+skullies.jpg","./Concept+B.jpg":"src/assets/2016-art/Concept+B.jpg","./Concept+C.jpg":"src/assets/2016-art/Concept+C.jpg","./Concept+D.jpg":"src/assets/2016-art/Concept+D.jpg","./Concept+E.jpg":"src/assets/2016-art/Concept+E.jpg","./Concept+F.jpg":"src/assets/2016-art/Concept+F.jpg","./Concept+G.jpg":"src/assets/2016-art/Concept+G.jpg","./Mini+Ellsworth.jpg":"src/assets/2016-art/Mini+Ellsworth.jpg","./Minimal+Line+A.jpg":"src/assets/2016-art/Minimal+Line+A.jpg","./Minimal+Line+B.jpg":"src/assets/2016-art/Minimal+Line+B.jpg","./Minimal+Line+C.jpg":"src/assets/2016-art/Minimal+Line+C.jpg","./Minimal+Line+D.jpg":"src/assets/2016-art/Minimal+Line+D.jpg","./Minimal+Line+E.jpg":"src/assets/2016-art/Minimal+Line+E.jpg","./Minimal+Line+F.jpg":"src/assets/2016-art/Minimal+Line+F.jpg","./Minimal+Line+G.jpg":"src/assets/2016-art/Minimal+Line+G.jpg","./Minimal+Line+H.jpg":"src/assets/2016-art/Minimal+Line+H.jpg","./Minimal+Line+I.jpg":"src/assets/2016-art/Minimal+Line+I.jpg","./Minimal+Line+J.jpg":"src/assets/2016-art/Minimal+Line+J.jpg","./Minimal+Line+K.jpg":"src/assets/2016-art/Minimal+Line+K.jpg","./Red+Drip.jpg":"src/assets/2016-art/Red+Drip.jpg","./Skull+and+Lines.jpg":"src/assets/2016-art/Skull+and+Lines.jpg","./Totem-Pole_A.jpg":"src/assets/2016-art/Totem-Pole_A.jpg","./Totem-Pole_B.jpg":"src/assets/2016-art/Totem-Pole_B.jpg","./Totem-Pole_C.jpg":"src/assets/2016-art/Totem-Pole_C.jpg","./Totem-Pole_D.jpg":"src/assets/2016-art/Totem-Pole_D.jpg","./Totem-Pole_E.jpg":"src/assets/2016-art/Totem-Pole_E.jpg","./Watercolour_A.jpg":"src/assets/2016-art/Watercolour_A.jpg","./Watercolour_B.jpg":"src/assets/2016-art/Watercolour_B.jpg","./Watercolour_C.jpg":"src/assets/2016-art/Watercolour_C.jpg","./Watercolour_D.jpg":"src/assets/2016-art/Watercolour_D.jpg","./Watercolour_E.jpg":"src/assets/2016-art/Watercolour_E.jpg","./Yellow+Square.jpg":"src/assets/2016-art/Yellow+Square.jpg","./concept-a.jpg":"src/assets/2016-art/concept-a.jpg","./models-215.jpg":"src/assets/2016-art/models-215.jpg","./models-216.jpg":"src/assets/2016-art/models-216.jpg","./models-217.jpg":"src/assets/2016-art/models-217.jpg","./models-218.jpg":"src/assets/2016-art/models-218.jpg","./models-219.jpg":"src/assets/2016-art/models-219.jpg","./models-220.jpg":"src/assets/2016-art/models-220.jpg","./models-221.jpg":"src/assets/2016-art/models-221.jpg","./models-222.jpg":"src/assets/2016-art/models-222.jpg"}],"src/components/Tile.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23164,7 +23341,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _ = _interopRequireDefault(require("../assets/2018-art/*.jpg"));
+var _ = _interopRequireDefault(require("../assets/2016-art/*.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -23202,6 +23379,7 @@ function (_React$Component) {
       open: false,
       mouseOver: false
     };
+    _this._onKeyUp = _this._onKeyUp.bind(_assertThisInitialized(_assertThisInitialized(_this)));
     _this._clickHandler = _this._clickHandler.bind(_assertThisInitialized(_assertThisInitialized(_this)));
     _this._mouseEnter = _this._mouseEnter.bind(_assertThisInitialized(_assertThisInitialized(_this)));
     _this._mouseLeave = _this._mouseLeave.bind(_assertThisInitialized(_assertThisInitialized(_this)));
@@ -23211,10 +23389,10 @@ function (_React$Component) {
   _createClass(Tile, [{
     key: "_mouseEnter",
     value: function _mouseEnter(e) {
+      console.log("mouse enter " + e);
       e.preventDefault();
 
       if (this.state.mouseOver === false) {
-        console.log(_.default);
         this.setState({
           mouseOver: true
         });
@@ -23247,21 +23425,39 @@ function (_React$Component) {
       }
     }
   }, {
+    key: "_onKeyUp",
+    value: function _onKeyUp(e) {
+      e.preventDefault();
+
+      if (this.state.open === true) {
+        if (e.keyCode === 27) {
+          this.setState({
+            open: false
+          });
+        } else {
+          this.setState({
+            open: true
+          });
+        }
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
-      var tileStyle = {}; // let headerStyle = {};
-      // let zoom = {};
+      var tileStyle = {};
+      var headerStyle = {};
+      var zoom = {};
 
       if (this.state.open) {
         tileStyle = {
-          width: '100vw',
-          height: '100vw',
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
+          width: '60vw',
+          height: '60vw',
+          position: 'fixed',
+          top: '15%',
+          left: '29%',
           margin: '0',
-          marginTop: '-31vw',
-          marginLeft: '-31vw',
+          marginTop: '-11vw',
+          marginLeft: '-11vw',
           boxShadow: '0 0 40px 5px rgba(0, 0, 0, 0.3)',
           transform: 'none'
         };
@@ -23278,6 +23474,8 @@ function (_React$Component) {
         onMouseEnter: this._mouseEnter,
         onMouseLeave: this._mouseLeave,
         onClick: this._clickHandler,
+        onKeyUp: this._onKeyUp,
+        tabIndex: "0",
         src: this.props.src,
         style: tileStyle
       }));
@@ -23289,7 +23487,7 @@ function (_React$Component) {
 
 var _default = Tile;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../assets/2018-art/*.jpg":"src/assets/2018-art/*.jpg"}],"src/components/Artboard.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../assets/2016-art/*.jpg":"src/assets/2016-art/*.jpg"}],"src/components/Artboard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23299,7 +23497,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _ = _interopRequireDefault(require("../assets/2018-art/*.jpg"));
+var _ = _interopRequireDefault(require("../assets/2016-art/*.jpg"));
 
 var _Tile = _interopRequireDefault(require("./Tile"));
 
@@ -23311,7 +23509,7 @@ var Artboard = function Artboard() {
     className: "row-span"
   }, _react.default.createElement("p", {
     className: "font-heavy-gray"
-  }, "Paintings"), _react.default.createElement("div", {
+  }, "Art & Design"), _react.default.createElement("div", {
     className: "tiles"
   }, Object.keys(_.default).map(function (key) {
     return _react.default.createElement(_Tile.default, {
@@ -23323,7 +23521,7 @@ var Artboard = function Artboard() {
 
 var _default = Artboard;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../assets/2018-art/*.jpg":"src/assets/2018-art/*.jpg","./Tile":"src/components/Tile.js"}],"src/components/Workboard.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../assets/2016-art/*.jpg":"src/assets/2016-art/*.jpg","./Tile":"src/components/Tile.js"}],"src/components/Workboard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23417,7 +23615,79 @@ var Webdesignboard = function Webdesignboard() {
 
 var _default = Webdesignboard;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"src/components/Designboard.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"src/assets/2018-art/-IMG_0480.jpg":[function(require,module,exports) {
+module.exports = "/-IMG_0480.fe2145a4.jpg";
+},{}],"src/assets/2018-art/-IMG_0481.jpg":[function(require,module,exports) {
+module.exports = "/-IMG_0481.364a809a.jpg";
+},{}],"src/assets/2018-art/-IMG_0483.jpg":[function(require,module,exports) {
+module.exports = "/-IMG_0483.46169dae.jpg";
+},{}],"src/assets/2018-art/-IMG_0485.jpg":[function(require,module,exports) {
+module.exports = "/-IMG_0485.810abb87.jpg";
+},{}],"src/assets/2018-art/-IMG_0494.jpg":[function(require,module,exports) {
+module.exports = "/-IMG_0494.f76770b8.jpg";
+},{}],"src/assets/2018-art/-IMG_0497.jpg":[function(require,module,exports) {
+module.exports = "/-IMG_0497.03a0afa9.jpg";
+},{}],"src/assets/2018-art/Amy-3.jpg":[function(require,module,exports) {
+module.exports = "/Amy-3.8edd89d4.jpg";
+},{}],"src/assets/2018-art/Cassie-B.jpg":[function(require,module,exports) {
+module.exports = "/Cassie-B.b380d3e5.jpg";
+},{}],"src/assets/2018-art/Eimeliz-b.jpg":[function(require,module,exports) {
+module.exports = "/Eimeliz-b.0bb508e8.jpg";
+},{}],"src/assets/2018-art/Francesca-C.jpg":[function(require,module,exports) {
+module.exports = "/Francesca-C.2bea8ec4.jpg";
+},{}],"src/assets/2018-art/Mini+Ellsworth.jpg":[function(require,module,exports) {
+module.exports = "/Mini+Ellsworth.2bf8acf1.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+A.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+A.704614e6.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+B.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+B.9ae61ef6.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+C.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+C.fc19a791.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+D.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+D.40806e51.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+E.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+E.131e7ef4.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+F.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+F.cadc99d3.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+G.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+G.69ef8dc9.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+H.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+H.abfc76f5.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+I.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+I.6bbbd698.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+J.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+J.462c9483.jpg";
+},{}],"src/assets/2018-art/Minimal+Line+K.jpg":[function(require,module,exports) {
+module.exports = "/Minimal+Line+K.9112c8e1.jpg";
+},{}],"src/assets/2018-art/Nicole.jpg":[function(require,module,exports) {
+module.exports = "/Nicole.dc42dbe1.jpg";
+},{}],"src/assets/2018-art/*.jpg":[function(require,module,exports) {
+module.exports = {
+  "-IMG_0480": require("./-IMG_0480.jpg"),
+  "-IMG_0481": require("./-IMG_0481.jpg"),
+  "-IMG_0483": require("./-IMG_0483.jpg"),
+  "-IMG_0485": require("./-IMG_0485.jpg"),
+  "-IMG_0494": require("./-IMG_0494.jpg"),
+  "-IMG_0497": require("./-IMG_0497.jpg"),
+  "Amy-3": require("./Amy-3.jpg"),
+  "Cassie-B": require("./Cassie-B.jpg"),
+  "Eimeliz-b": require("./Eimeliz-b.jpg"),
+  "Francesca-C": require("./Francesca-C.jpg"),
+  "Mini+Ellsworth": require("./Mini+Ellsworth.jpg"),
+  "Minimal+Line+A": require("./Minimal+Line+A.jpg"),
+  "Minimal+Line+B": require("./Minimal+Line+B.jpg"),
+  "Minimal+Line+C": require("./Minimal+Line+C.jpg"),
+  "Minimal+Line+D": require("./Minimal+Line+D.jpg"),
+  "Minimal+Line+E": require("./Minimal+Line+E.jpg"),
+  "Minimal+Line+F": require("./Minimal+Line+F.jpg"),
+  "Minimal+Line+G": require("./Minimal+Line+G.jpg"),
+  "Minimal+Line+H": require("./Minimal+Line+H.jpg"),
+  "Minimal+Line+I": require("./Minimal+Line+I.jpg"),
+  "Minimal+Line+J": require("./Minimal+Line+J.jpg"),
+  "Minimal+Line+K": require("./Minimal+Line+K.jpg"),
+  "Nicole": require("./Nicole.jpg")
+};
+},{"./-IMG_0480.jpg":"src/assets/2018-art/-IMG_0480.jpg","./-IMG_0481.jpg":"src/assets/2018-art/-IMG_0481.jpg","./-IMG_0483.jpg":"src/assets/2018-art/-IMG_0483.jpg","./-IMG_0485.jpg":"src/assets/2018-art/-IMG_0485.jpg","./-IMG_0494.jpg":"src/assets/2018-art/-IMG_0494.jpg","./-IMG_0497.jpg":"src/assets/2018-art/-IMG_0497.jpg","./Amy-3.jpg":"src/assets/2018-art/Amy-3.jpg","./Cassie-B.jpg":"src/assets/2018-art/Cassie-B.jpg","./Eimeliz-b.jpg":"src/assets/2018-art/Eimeliz-b.jpg","./Francesca-C.jpg":"src/assets/2018-art/Francesca-C.jpg","./Mini+Ellsworth.jpg":"src/assets/2018-art/Mini+Ellsworth.jpg","./Minimal+Line+A.jpg":"src/assets/2018-art/Minimal+Line+A.jpg","./Minimal+Line+B.jpg":"src/assets/2018-art/Minimal+Line+B.jpg","./Minimal+Line+C.jpg":"src/assets/2018-art/Minimal+Line+C.jpg","./Minimal+Line+D.jpg":"src/assets/2018-art/Minimal+Line+D.jpg","./Minimal+Line+E.jpg":"src/assets/2018-art/Minimal+Line+E.jpg","./Minimal+Line+F.jpg":"src/assets/2018-art/Minimal+Line+F.jpg","./Minimal+Line+G.jpg":"src/assets/2018-art/Minimal+Line+G.jpg","./Minimal+Line+H.jpg":"src/assets/2018-art/Minimal+Line+H.jpg","./Minimal+Line+I.jpg":"src/assets/2018-art/Minimal+Line+I.jpg","./Minimal+Line+J.jpg":"src/assets/2018-art/Minimal+Line+J.jpg","./Minimal+Line+K.jpg":"src/assets/2018-art/Minimal+Line+K.jpg","./Nicole.jpg":"src/assets/2018-art/Nicole.jpg"}],"src/components/Designboard.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -23622,7 +23892,7 @@ function (_React$Component) {
       }, _react.default.createElement("div", {
         id: "main-body"
       }, _react.default.createElement(_Workboard.default, null), _react.default.createElement(_Awardboard.default, null), _react.default.createElement(_Webdesignboard.default, null))), _react.default.createElement("div", {
-        className: "container no-float"
+        className: "container float-center"
       }, _react.default.createElement(_Artboard.default, null)));
     }
   }]);
@@ -23660,7 +23930,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53969" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62639" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

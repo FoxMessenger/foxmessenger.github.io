@@ -19,6 +19,7 @@
   "homepage": "https://github.com/FoxMessenger/iamliamfox#readme",
   "dependencies": {
     "node-sass": "^4.9.4",
+    "npm": "^6.4.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },

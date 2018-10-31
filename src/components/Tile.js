@@ -1,6 +1,6 @@
 // Dependencies
 import React from 'react'
-import images from '../assets/2018-art/*.jpg';
+import images from '../assets/2016-art/*.jpg';
 
 // Tile Component
 class Tile extends React.Component {
@@ -10,14 +10,15 @@ class Tile extends React.Component {
                 open: false,
                 mouseOver: false
             };
+            this._onKeyUp = this._onKeyUp.bind(this);
             this._clickHandler = this._clickHandler.bind(this);
             this._mouseEnter = this._mouseEnter.bind(this);
             this._mouseLeave = this._mouseLeave.bind(this);
         }
     _mouseEnter(e) {
+        console.log("mouse enter " + e);
         e.preventDefault();
         if (this.state.mouseOver === false) {
-            console.log(images);
             this.setState({
                 mouseOver: true
             })
@@ -31,6 +32,7 @@ class Tile extends React.Component {
             })
         }
     }
+ 
     _clickHandler(e) {
         e.preventDefault();
         if (this.state.open === false) {
@@ -44,20 +46,35 @@ class Tile extends React.Component {
         }
     }
 
+    _onKeyUp(e) {
+        e.preventDefault();   
+        if (this.state.open === true) {
+            if (e.keyCode === 27) {
+                this.setState({
+                    open: false
+                }); 
+            } else {
+                this.setState({
+                    open: true
+                });
+            }
+        }
+    }   
+
     render() {
         let tileStyle = {};
-        // let headerStyle = {};
-        // let zoom = {};
+        let headerStyle = {};
+        let zoom = {};
         if (this.state.open) {
             tileStyle = {
-                width: '100vw',
-                height: '100vw',
-                position: 'absolute',
-                top: '50%',
-                left: '50%',
+                width: '60vw',
+                height: '60vw',
+                position: 'fixed',
+                top: '15%',
+                left: '29%',
                 margin: '0',
-                marginTop: '-31vw',
-                marginLeft: '-31vw',
+                marginTop: '-11vw',
+                marginLeft: '-11vw',
                 boxShadow: '0 0 40px 5px rgba(0, 0, 0, 0.3)',
                 transform: 'none'
             };
@@ -74,6 +91,8 @@ class Tile extends React.Component {
                     onMouseEnter={this._mouseEnter}
                     onMouseLeave={this._mouseLeave}
                     onClick={this._clickHandler}
+                    onKeyUp={this._onKeyUp}
+                    tabIndex="0" 
                     src={this.props.src}
                     style={tileStyle}
                 />
