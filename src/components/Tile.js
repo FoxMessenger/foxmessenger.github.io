@@ -16,7 +16,6 @@ class Tile extends React.Component {
             this._mouseLeave = this._mouseLeave.bind(this);
         }
     _mouseEnter(e) {
-        console.log("mouse enter " + e);
         e.preventDefault();
         if (this.state.mouseOver === false) {
             this.setState({
