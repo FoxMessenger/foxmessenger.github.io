@@ -20,25 +20,16 @@
   "dependencies": {
     "node-sass": "^4.9.4",
     "npm": "^6.4.1",
-<<<<<<< HEAD
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0"
-=======
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
->>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-<<<<<<< HEAD
     "babel-preset-react": "^6.24.1",
     "sass": "^1.20.1"
-=======
-    "babel-preset-react": "^6.24.1"
->>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
   }
 }

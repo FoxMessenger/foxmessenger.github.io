@@ -1,8 +1,6 @@
-// Dependencies
 import React from 'react'
 import images from '../assets/2016-art/*.jpg';
 
-// Tile Component
 class Tile extends React.Component {
     constructor(props) {
             super(props);

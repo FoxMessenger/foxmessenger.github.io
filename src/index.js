@@ -13,16 +13,12 @@ import './scss/app.scss';
 // Page Render
 class MainPage extends React.Component {
     render() {
-
         return <div className='container'>
             <div>
-                
                 <Intro/>
-                
                 <Workboard/>
                 <Awardboard/>
                 <Webdesignboard/>
-
             </div>
         </div>
     }
