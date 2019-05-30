@@ -1,0 +1,133 @@
+// TEST DIV LOCATIONS
+// div {
+//     border:1px solid tomato;
+// }
+// TEST DIV LOCATIONS
+
+
+// BASIC PAGE ELEMENTS
+html {
+    background-color:#171B1E;
+}
+
+body {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif;
+    #main-body {
+        max-width: 950px;
+        // margin-left: 12%;
+    }
+
+    #body-text {
+        margin: 120px 20px 0;
+        // text-align: center;
+    }
+    .navbar {
+        background-color:#171B1E;
+        color: #FFF;
+        height: 50px;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: 200;
+        padding-bottom: 4px;
+    }
+}
+
+.row-span {
+    margin: auto;
+    width: 100%;
+}
+
+
+.col-span {
+    margin: 64px 20px 100px;
+    text-align: left;
+    width: 15%;
+    float: left;
+    display: inline-block;
+    margin: 0 13% 100px 3%;
+}
+
+.float-center {
+    float: center;
+    clear: both;
+}
+
+// NAVIGATION
+.nav-alignment {
+    margin: auto;
+}
+
+// JUMBOTRON
+.short-hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 64px auto 44px;
+    width: 50px;
+}
+
+// DESIGN BOARD
+.preview {
+    width: 115px;
+}
+
+.tiles {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+    
+    margin: auto;
+}
+
+.tile {
+    flex: 200px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    img {
+        transition: transform 600ms ease;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+// FONT AND TEXT
+.font-light {
+    font-weight: 100;
+}
+.font-sm {
+    font-size: 10px;
+}
+
+.font-heavy {
+    font-weight: 900;
+}
+.font-heavy-gray {
+    font-weight: 900;
+    color: darkgrey;
+}
+
+.dotted {
+    border-bottom: 1px dotted #c2dce6;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: rgb(194, 220, 230);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+    text-decoration: none;
+    color: gray;
+    }
+}
