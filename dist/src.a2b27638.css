@@ -6,7 +6,11 @@ body {
   text-align: center;
   font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif; }
   body #main-body {
+<<<<<<< HEAD
     max-width: 950px; }
+=======
+    margin-left: 12%; }
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
   body #body-text {
     margin: 120px 20px 0; }
   body .navbar {
@@ -34,9 +38,12 @@ body {
   float: center;
   clear: both; }
 
+<<<<<<< HEAD
 .nav-alignment {
   margin: auto; }
 
+=======
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
 .short-hr {
   border: 0;
   height: 0;
@@ -86,6 +93,7 @@ body {
   border-bottom-color: #c2dce6;
   font-weight: 300;
   margin-bottom: 20px; }
+<<<<<<< HEAD
 
 a {
   color: white;
@@ -93,3 +101,5 @@ a {
   a:hover {
     text-decoration: none;
     color: gray; }
+=======
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a

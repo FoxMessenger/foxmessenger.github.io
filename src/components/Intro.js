@@ -10,7 +10,7 @@ const Intro = () => (
     <Router>
             <div className='short-hr'>&nbsp;</div>
             <h1 className='font-light'>Hi, my name is <b className='font-heavy no-decoration'><Link to='/'>Liam Fox.</Link></b></h1> 
-            <p><Link to='/design'>designer</Link>, story teller, <Link to='/travel'>photographer</Link>, traveler,  and <Link to='/art'>artist</Link> from chicago.</p>
+            <p><Link to='/design'>designer</Link>, story teller, <Link to='/travel'>photographer</Link>, traveler, and <Link to='/art'>artist</Link> from chicago.</p>
             <div className='short-hr'>&nbsp;</div>
             <Route exact path='/art' component={Artboard} />
             {/* <Route exact path='/story' component={Storyboard} /> */}

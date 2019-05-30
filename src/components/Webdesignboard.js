@@ -2,6 +2,11 @@
 import React from 'react'
 
 const Webdesignboard = () => (
+<<<<<<< HEAD
+=======
+    <div>
+        <div id="body-text">
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
         <div className="col-span">
             <p className="font-heavy-gray">Web Design</p>
 
@@ -32,6 +37,11 @@ const Webdesignboard = () => (
             <p>This web application was designed to give you a quick series of current Onion Related Articles taken from the Onion. The site contains a neat series of UX functions.</p>
             </div>
         </div>
+<<<<<<< HEAD
+=======
+        </div>
+    </div>
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
 )
 
 export default Webdesignboard

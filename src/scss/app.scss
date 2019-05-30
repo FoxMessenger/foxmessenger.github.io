@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // TEST DIV LOCATIONS
 // div {
 //     border:1px solid tomato;
@@ -6,6 +7,20 @@
 
 
 // BASIC PAGE ELEMENTS
+=======
+
+
+// TEST DIV LOCATIONS
+// ==================
+// div {
+//     border:1px solid tomato;
+// }
+// ==================
+// TEST DIV LOCATIONS
+
+// GENERAL
+
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
 html {
     background-color:#171B1E;
 }
@@ -15,8 +30,13 @@ body {
     text-align: center;
     font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif;
     #main-body {
+<<<<<<< HEAD
         max-width: 950px;
         // margin-left: 12%;
+=======
+        // max-width: 950px;
+        margin-left: 12%;
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
     }
 
     #body-text {
@@ -55,12 +75,17 @@ body {
     clear: both;
 }
 
+<<<<<<< HEAD
 // NAVIGATION
 .nav-alignment {
     margin: auto;
 }
 
 // JUMBOTRON
+=======
+// JUMBOTRON
+
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
 .short-hr {
     border: 0;
     height: 0;
@@ -71,6 +96,10 @@ body {
 }
 
 // DESIGN BOARD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
 .preview {
     width: 115px;
 }
@@ -99,6 +128,10 @@ body {
 }
 
 // FONT AND TEXT
+<<<<<<< HEAD
+=======
+
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
 .font-light {
     font-weight: 100;
 }
@@ -123,6 +156,7 @@ body {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 a {
     color: white;
     text-decoration: none;
@@ -131,3 +165,5 @@ a {
     color: gray;
     }
 }
+=======
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a

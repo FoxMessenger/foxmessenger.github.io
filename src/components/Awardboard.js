@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 
 const Awardboard = () => (
@@ -8,6 +9,23 @@ const Awardboard = () => (
         <p className='font-light'><b>Platinum MarComm award</b><br/> 2014 <br/>ComEd STE Millumina <br/>PACO</p>
         <div className='dotted'>&nbsp;</div>
         <p className='font-light'><b>Platinum MarComm award</b><br/> 2014 <br/>Gift of Hope Summer Event <br/>PACO</p>
+=======
+// Dependencies
+import React from 'react'
+
+const Awardboard = () => (
+    <div>
+        <div id="body-text">
+            <div className="col-span">
+                <p className="font-heavy-gray">Awards</p>
+                <p className="font-light"><b>Uni award</b> <br/>2006 <br/>Most likely to lose the most students</p>
+                <div className="dotted">&nbsp;</div>
+                <p className="font-light"><b>Platinum MarComm award</b><br/> 2014 <br/>ComEd STE Millumina <br/>PACO</p>
+                <div className="dotted">&nbsp;</div>
+                <p className="font-light"><b>Platinum MarComm award</b><br/> 2014 <br/>Gift of Hope Summer Event <br/>PACO</p>
+            </div>
+        </div>
+>>>>>>> 18b7ac3382c2804903b195b5a889753585873f8a
     </div>
 )
 
